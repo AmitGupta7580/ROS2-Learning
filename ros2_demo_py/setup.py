@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'ros2_app_py'
+package_name = 'ros2_demo_py'
 
 setup(
     name=package_name,
@@ -14,13 +14,14 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='user',
-    maintainer_email='user@todo.todo',
+    maintainer_email='test@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "talker = ros2_app_py.talker:main"
+            "talker = ros2_demo_py.talker:main",
+            "listener = ros2_demo_py.listener:main"
         ],
     },
 )
