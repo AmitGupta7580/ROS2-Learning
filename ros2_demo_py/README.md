@@ -1,7 +1,7 @@
 ## Create ROS2 Package (python)
 
 ```
-ros2 pkg create ros2_demo_py --build-type ament_python --dependencies rclpy
+ros2 pkg create ros2_demo_py --build-type ament_python --dependencies rclpy std_msgs
 ```
 
 ## Build Package (Python)
